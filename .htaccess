@@ -1,0 +1,27 @@
+### known spam ips, outright deny
+order allow,deny
+deny from 112.198.207.19 
+allow from all
+
+RewriteEngine on
+RewriteRule home\.html index\.php
+RewriteRule send\-anonymous\-email\.html index\.php?action=send
+RewriteRule send\-letter\.html index\.php?action=snailmail
+RewriteRule send\-email\.html index\.php?action=send
+RewriteRule block\-email\-confirmation.html index\.php?action=block&%{QUERY_STRING}
+RewriteRule block\-email\-address.html index\.php?action=blockrequest&%{QUERY_STRING}
+RewriteRule add\-anonymous\-email\-to\-your\-site\.html index\.php?action=embed
+RewriteRule about\-us\.html index\.php?action=page&page=about
+RewriteRule faq\.html index\.php?action=page&page=faq
+RewriteRule contact\.html index\.php?action=page&page=contact
+RewriteRule privacy\.html index\.php?action=page&page=privacy
+RewriteRule send\-anonymous\-email/embed/ embed\.php?%{QUERY_STRING}
+RewriteRule send\-anonymous\-email/conversation/embed/([0-9-]+) embed_convo\.php?convoID=$1&%{QUERY_STRING}
+
+### activate mod_expires
+ExpiresActive On
+### Expire .gif's 1 month from when they're accessedExpiresByType image/gif A2592000
+ExpiresByType image/png A2592000
+ExpiresByType image/png A2592000
+
+FileETag none 

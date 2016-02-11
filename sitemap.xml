@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+   <url>
+      <loc>http://anonymousfeedback.net/</loc>
+      <changefreq>monthly</changefreq>
+   </url>
+   <url>
+      <loc>http://anonymousfeedback.net/faq.html</loc>
+      <changefreq>monthly</changefreq>
+   </url>
+   <url>
+      <loc>http://anonymousfeedback.net/privacy.html</loc>
+      <changefreq>monthly</changefreq>
+   </url>
+   <url>
+      <loc>http://anonymousfeedback.net/contact.html</loc>
+      <changefreq>monthly</changefreq>
+   </url>
+   <url>
+      <loc>http://anonymousfeedback.net/index.php?action=page&amp;page=ideas</loc>
+      <changefreq>monthly</changefreq>
+   </url>
+   <url>
+      <loc>http://anonymousfeedback.net/index.php?action=page&amp;page=update</loc>
+      <changefreq>monthly</changefreq>
+   </url>
+
+   <url>
+      <loc>http://anonymousfeedback.net/index.php?action=snailmail</loc>
+      <changefreq>monthly</changefreq>
+   </url>
+   <url>
+       <loc>http://anonymousfeedback.net/index.php?action=report</loc>
+       <changefreq>monthly</changefreq>
+   </url>
+   <url>
+       <loc>http://anonymousfeedback.net/cheater.html</loc>
+       <changefreq>monthly</changefreq>
+   </url>
+    <url>
+       <loc>http://anonymousfeedback.net/send-email.html</loc>
+       <changefreq>monthly</changefreq>
+   </url>
+    <url>
+       <loc>http://anonymousfeedback.net/sendemail.html</loc>
+       <changefreq>monthly</changefreq>
+   </url>
+<url>
+       <loc>http://anonymousfeedback.net/send-anonymous-email.html</loc>
+       <changefreq>monthly</changefreq>
+   </url>
+<url>
+       <loc>http://anonymousfeedback.net/sendanonymousemail.html</loc>
+       <changefreq>monthly</changefreq>
+   </url>
+</urlset>
